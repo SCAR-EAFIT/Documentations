@@ -10,13 +10,13 @@
 - [Authors](#authors)
 
 ## Introduction
-In this file, you are going to learn how to compile BLAS (specifically OpenBLAS) step by step. This is a good exercise for you because you are going to improve in themes that we saw in the lectures (and Compilation), and you are going to keep practicing the command line (and Linux), which is an essential tool in HPC.
+In this file, you will learn how to compile BLAS (specifically OpenBLAS) step by step. This is a good exercise for you because you will improve on topics we saw in the lectures (Environment Variables, and Compiling), and you will continue practicing the command line (and Linux), which is an essential tool in HPC.
 
-We are going to start by explaining what BLAS is, then we will understand what is OpenBLAS, and finally we are going to compile this application.
+We will start by explaining what BLAS is, then we will compile this OpenBLAS, and finally we will see how to use this library.
 
-It is important to note that this is one of your first compilations, so there are some things that you may not understand. However, feel free to ask questions. Also, there are some steps that are not entirely necessary, but you need practice to notice this.
+It is important to keep in mind that this is one of your first compilations, so there are some things you may not understand. However, feel free to ask questions. Also, there are some steps that are not entirely necessary, but you need practice to realize this.
 
-Whit BLAS and MPICH, we are ready to start compiling HPL, but it will come after.
+With BLAS and MPICH, we are ready to start compiling HPL, but it will come later.
 
 ## What is BLAS?
 The BLAS (Basic Linear Algebra Subprograms) are routines that provide standard building blocks for performing basic vector and matrix operations. The Level 1 BLAS perform scalar, vector and vector-vector operations, the Level 2 BLAS perform matrix-vector operations, and the Level 3 BLAS perform matrix-matrix operations. Because the BLAS are efficient, portable, and widely available, they are commonly used in the development of high quality linear algebra software, LAPACK for example.
