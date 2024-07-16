@@ -77,9 +77,9 @@ Replace ***path_to_build_mpich_directory*** with your specific directory. In my 
 ```
 ./configure --prefix=/home/juan/University/SCAR/Apps/mpich/build_mpich
 ```
-**NOTE:** If you don't have fortran on your system, you can add `--diable-fortran` flag to avoid errors. Example:
+**NOTE:** If you don't have fortran on your system, you can add `--disable-fortran` flag to avoid errors. Example:
 ```
-./configure --prefix=/home/juan/University/SCAR/Apps/mpich/build_mpich --diable-fortran
+./configure --prefix=/home/juan/University/SCAR/Apps/mpich/build_mpich --disable-fortran
 ```
 
 At the end, you should see the following message:
